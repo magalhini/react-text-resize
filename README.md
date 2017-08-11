@@ -2,6 +2,8 @@
 
  Control the size of your paragraphs based on its length.
  Shorter lines will start at the `max` size, then decrease in size until the maximum number of characters (`capAt`) is reached; at which point it will use the `min` size and stop decreasing.
+ 
+ ![](https://cldup.com/QemouMSu4t.gif)
 
  [See the demo page on Codepen](https://codepen.io/magalhini/pen/wqeaEE?editors=1010)
 
