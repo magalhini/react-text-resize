@@ -1,7 +1,7 @@
 {
-  "name": "react-size-text",
+  "name": "react-text-resize",
   "version": "1.0.0",
-  "description": "Boilerplate for npm modules.",
+  "description": "A React component which decreases the size of its text content as more text is added. It allows for granular control over how it should scale down.",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -11,7 +11,7 @@
     "cover": "istanbul cover _mocha -- --compilers js:babel-register --recursive",
     "lint": "eslint src test",
     "build": "babel src/ --out-dir lib",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
+    "prepublish": "npm run clean && npm run build"
   },
   "files": [
     "lib",
@@ -19,21 +19,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Travelport-Ukraine/npm-module-boilerplate.git"
+    "url": "git+https://github.com/magalhini/react-text-resize.git"
   },
   "keywords": [
-    "boilerplate",
-    "npm",
-    "module",
-    "node",
-    "javascript"
+    "react",
+    "text",
+    "resize",
+    "fit",
+    "paragraph"
   ],
   "author": "magalhini@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Travelport-Ukraine/npm-module-boilerplate/issues"
+    "url": "https://github.com/magalhini/react-text-resize/issues"
   },
-  "homepage": "https://github.com/Travelport-Ukraine/npm-module-boilerplate#readme",
+  "homepage": "https://github.com/magalhini/react-text-resize/",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",

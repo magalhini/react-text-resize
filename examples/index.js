@@ -27,7 +27,7 @@ class App extends React.Component {
 
   componentDidMount() {
     this.type(this.state.sentence, 0);
-    //this.input.focus();
+    this.input.focus();
   }
 
   restart() {

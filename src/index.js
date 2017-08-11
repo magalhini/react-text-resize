@@ -26,14 +26,14 @@ class TextFit extends Component {
     };
   }
 
+  componentDidMount() {
+    this.getSize();
+  }
+
   componentDidUpdate() {
     if (this.area.innerHTML.split('').length !== this.state.totalChars) {
       this.getSize();
     }
-  }
-
-  componentDidMount() {
-    this.getSize();
   }
 
   getSize() {
@@ -64,7 +64,7 @@ TextFit.propTypes = {
   max: PropTypes.number,
   min: PropTypes.number,
   children: PropTypes.element,
-}
+};
 
 TextFit.defaultProps = {
   capAt: 300,
