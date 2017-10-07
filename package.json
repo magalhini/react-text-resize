@@ -22,6 +22,11 @@
     "url": "git+https://github.com/magalhini/react-text-resize.git"
   },
   "keywords": [
+    "component",
+    "react",
+    "resize",
+    "text",
+    "typography",
     "react",
     "text",
     "resize",
@@ -55,5 +60,8 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
-  }
+  },
+  "contributors": [
+    "magalhini@gmail.com"
+  ]
 }
